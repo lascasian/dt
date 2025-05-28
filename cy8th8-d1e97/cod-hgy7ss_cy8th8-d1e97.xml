@@ -14,6 +14,11 @@
           <resp>Transcription Editor</resp>
           <resp>TEI Encoder</resp>
         </respStmt>
+        <respStmt>
+          <name ref="#a1wilson">Andrew Lars Wilson</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
@@ -37,7 +42,7 @@
       <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a diplomatic edition. </p>
+          guidelines for a diplomatic edition.</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -58,54 +63,86 @@
       <div xml:id="cy8th8-d1e97">
         <head>Sectio 3</head>
         <p>
-          <lb ed="#B"/> S. 3o.
+          <lb ed="#B"/>§. 3º.
         </p>
         <p>
-          <lb ed="#B"/>Propositio 2a. non solum mortuis prouenit hoc bonum
-          <lb ed="#B"/>honoris et bone opinionis apud posteros quod est quodam<lb ed="#B"/>modo
-          perpetuo et semper uiuere prout dictum est: uerum
-          <lb ed="#B"/>etiam multum interest uiuentium qui defunctis uel san<lb ed="#B"/>guine 
-          uel affinitate aut etiam amicitia coniuncti fue<lb ed="#B"/>runt /
+          <lb ed="#B"/>¶ Propositio 2a. non solum mortuis prouenit hoc bonum
+          <lb ed="#B"/>honoris et bone opinionis apud posteros quod est quodam<lb ed="#P" break="no"/>modo
+          perpetuo et semper viuere prout dictum est: verum
+          <lb ed="#B"/>etiam multum interest viuentium qui defunctis vel san<lb ed="#B" break="no"/>guine
+          vel affinitate aut etiam amicitia coniuncti fue<lb ed="#B"/ break="no">runt /
         </p>
         <p>
-          <lb ed="#B"/>Probatur propositio: Quoniam sicut nobilitas parentum quam 
-          <lb ed="#B"/>uirtutibus diuitiis scientia industria eloquentia rei militari 
-          <lb ed="#B"/>rei publice ad ministratione sua uel majorem dignitate aut
-          <lb ed="#B"/>alia quauis <sic>excelentia</sic> non uulgari acquisierunt descendit 
-          <lb ed="#B"/>ueluti ex traduce ad posteros ut qui maiorum suorum condi<lb ed="#B"/>tionem 
-          sequuntur. Ut optime probatur in <ref>l. 1. ubi <name>Bartho.</name></ref> 
-          <lb ed="#B"/>et <ref><name>Joa. de plate.</name></ref> et in. <ref>L. si senator.</ref> et in <ref>L. mulieres. C. de 
-          <lb ed="#B"/>dignitatibus lib. 12.</ref> et in <ref>L. senatoris filium. ff. de senato</ref> et de 
-          <lb ed="#B"/>illa nobilitate et uirtutibus quibus ad illam predecesso<lb ed="#B"/>res
-          peruenerunt posteri et descendentes gloriantur et 
-          <lb ed="#B"/>se inpigniter sepe jactitant: ita si maiores sui aliquo 
-          <lb ed="#B"/>dedecore aut infamia morum presertim sunt notati: 
-          <lb ed="#B"/>uel eis aliqua iniuria irrogatur: proculdubio descenden<lb ed="#B"/>tes 
-          omnes eiusdem opprobrii confusione percelluntur: 
-          <lb ed="#B"/>et eorum omnium honori detrahitur. Nam si parentibus 
+          <lb ed="#B"/>Probatur propositio. quoniam sicut nobilitas parentum quam
+          <lb ed="#B"/>uirtutibus diuitiis scientia industria eloquentia rei militari
+          <lb ed="#B"/>rei publice ad ministratione sua vel majorem dignitate aut
+          <lb ed="#B"/>alia quauis <sic>excelentia</sic> non vulgari acquisierunt descendit
+          <lb ed="#B"/>veluti ex traduce ad posteros vt qui maiorum suorum condi<lb ed="#B"/>tionem
+          sequuntur. Vt optime probatur in <ref>l. 1. vbi <name>Bartho.</name></ref>
+          <lb ed="#B"/>et <ref><name>Joa. de plate.</name></ref> et in. <ref>l. si senator.</ref> et in <ref>l. mulieres. C. de
+          <lb ed="#B"/>digni. lib. 12.</ref> et in <ref>l. senatoris filium. ff. de senato</ref> et de
+          <lb ed="#B"/>illa nobilitate et virtutibus quibus ad illam predecesso<lb ed="#B"/>res
+          peruenerunt posteri et descendentes gloriantur et
+          <lb ed="#B"/>se inpigniter sepe jactitant: ita si maiores sui aliquo
+          <lb ed="#B"/>dedecore aut infamia morum presertim sunt notati:
+          <lb ed="#B"/>Vel eis aliqua in Juria irrogatur: proculdubio descenden<lb ed="#B"/>tes
+          omnes eiusdem oprobrij confusione percelluntur:
+          <lb ed="#B"/>et eorum omnium honori detrahitur. Nam si parentibus
           <pb ed="#B" n="6-r"/>
-          <lb ed="#B"/>iam mortuis aliquis honor exhibeatur ueluti cum laudat. 
-          <lb ed="#B"/>et celebratur eorum memoria manifestum est in filios et ne<lb ed="#B"/>potes 
-          et pronepotes atque in omnes descendentes honorem 
-          <lb ed="#B"/>eiusmodi redundare. E contrario aut si fierent eis alique 
+          <lb ed="#B"/>iam mortuis aliquis honor exhibeatur veluti cum laudat.
+          <lb ed="#B"/>et celebratur eorum memoria manifestum est in filios et ne<lb ed="#B"/>potes
+          et pronepotes atque in omnes descendentes honorem
+          <lb ed="#B"/>eiusmodi redundare. E contrario aut si fierent eis alique
           <lb ed="#B"/>inhonorationes puta si extumularentur aut ossa eorum cre<lb ed="#B"/>marentur
-          magna iniuria uiuis et filiis et aliis descendentib. 
-          <lb ed="#B"/>et attinentibus irrogaretur. Similiter vero redundant in 
-          <lb ed="#B"/>parentes defunctos bonum vel malum que proveniunt filiis 
-          <lb ed="#B"/>nepotibus pronepotibus atque aliis posteris eorum scilicet et 
-          <lb ed="#B"/>prosperitates et inhonorationes infamie vel <sic>infortunia</sic>: 
-          <lb ed="#B"/>id est bone et male operationes: ex quibus procedunt honores vel 
-          <lb ed="#B"/>inhonorationes. Clarior enim est qui optimos relinquit 
+          magna iniuria viuis et filijs et alijs descendentibus
+          <lb ed="#B"/>et attinentibus irrogaretur. Similiter vero redundant in
+          <lb ed="#B"/>parentes defunctos bonum vel malum que proveniunt filijs
+          <lb ed="#B"/>nepotibus pronepotibus adque alijs posteris eorum scilicet et
+          <lb ed="#B"/>prosperitates et in honorationes infamie vel infortunja:
+          <lb ed="#B"/>id est bone et male operationes: ex quibus procedunt honores vel
+          <lb ed="#B"/>in honorationes. Clarior enim est qui optimos relinquit
           <lb ed="#B"/>successores: quam qui nullos vel malos ita disputat <ref><name>Philosophus</name></ref> et con<lb ed="#B"/>cludit
-          <ref>1 Ethic.</ref> Patent hec omnia per illud <ref>Ecclesiastici. 
-          <lb ed="#B"/>c. 3.</ref> <quote>Ne glorieris in contumelia patris tui non enim est tibi glo<lb ed="#B"/>ria 
-          sed confusio gloria enim hominis ex honore patris sui: et dede<lb ed="#B"/>cus 
-          filii pater sine honore.</quote> Et <ref>cap. 41:</ref> <quote>Erubescite a patre et matre 
-          <lb ed="#B"/>de fornicatione.</quote> et parum infra <quote>de patre impio queruntur 
-          <lb ed="#B"/>filii: quia per illum in opprobrio</quote>. Unde filiis ex fornicario 
-          <lb ed="#B"/>matris partu irrogatur iniuria ut in <ref>Authent. De restitutionibus et ea que 
-          <lb ed="#B"/>parit, ~ ultimo collationis</ref> item dedecus est patri si filius ducat igno<lb ed="#B"/>miniosam 
-          uxorem, <ref>Digest., De contrahenda emptione. L 3</ref>.
+          <ref>1 Ethic.</ref> <quote>Patent hec omnia per illud</quote> <ref>Ecclesiastici.
+          <lb ed="#B"/>c. 3.</ref> <quote>ne glorieris in contumelia patris tui non enim est tibi glo<lb ed="#B"/>ria
+          sed confusio gloria enim hominis ex honore patris tui<!--Losada1992 reads sui-->: et dede<lb ed="#B"/>cus
+          filij pater sine honore</quote>. Et <ref>cap. 41</ref>. <quote>Erubescite a patre et matre
+          <lb ed="#B"/>de fornicatione</quote>. et parum infra <quote>de patre impio queruntur
+          <lb ed="#B"/>filij: quia per illum in opprobrio</quote>. Vnde filijs ex fornicario
+          <lb ed="#B"/>matris partu irrogatur injuria vt in <ref>auten. de resti et ea que
+          <lb ed="#B"/>pa. §. vlti colla</ref> item dedecus est patri si filius ducat igno<lb ed="#B"/>miniosam
+          vxorem. <ref>ff. de contrahenda empt. l. 3</ref>.
+        </p>
+        <p>
+          ¶ facit ad
+          <lb ed="#P"/>propositum quod de <ref><name>eneo scipione</name>, maioris africani filio <name>Va<lb ed="#P" break="no"/>lerius</name>
+          libro .3. c. 5</ref>. vel secundum aliud volumen, cap. 305,  refert: «qui quasi monstrum fuit, attenta gloria et virtutibus patris, a  quibus ipse plurimum degenerauerat, et ob maculas sue turpitudinis  vitiorum inter ceteras sibi ignominias illatas, cum a populo romano  eidem collatus fuisset honor preture, vel a quodam scriba patris sui  cui romanus populus concesserat, propinqui et consanguinei eius reputantes quod dignitatem illam propter vitia et turpitudines suas erat  polluturus, quodque opprobrium et dedecus illius in omnes eos redundaret, ita terruerunt eum vt non auderet ponere sellam pretoriam,  aut 1us dicere inter litigantes. Et super hoc detraxerunt de manu eius  annulum in quo erat sculptum caput Africani maioris!». Et subdit  valerius: «Dii boni, quas tenebras e quo fulmine passi estis nasci», id  est, offuscationes claritatis nominis et fame passi estis nasci”.
+        </p>
+        <p>
+Patet igitur omnes propinquos || et qui de eadem genealogia seu  cognatione sunt, opprobio aut ignominia eorum alicuius labefactari.  Inde est quod offendens in persona vel in bonis aliquem vel aliquos,  offendere nedum illos dicitur, sed et quoscumque de offensorum cognatione. Probatur hoc per cap. olim, De iniuriis et damno dato, vbi  iniuria irrogata episcopo, omnibus ecclesiis subiectis videtur irrogata  quia sponsus est illarum ecclesiarum?. vnde ecclesie inferiores pro iniuria sibi vtique vt ibi possunt agere.
+        </p>
+        <p>
+Et propterea eisdem consanguineis datur aliquando facultas vindicandi, vt L. raptores, Codex, De  sacrosanctis ecclesiis, vbi dicitur quod consanguineis virginum et mulierum Deo dedicatarum raptorum, datur propria autoritate interficiendi facultas?. Et ex his, Glossa in L. lex Cornelia, Digest., De  iniuris; quia iniuria vni de cognatione illata, videtur facta toti cognationi!?. Hoc et patet Genesis 14, facto Abrahe qui vindicauit rapinam  in Loth nepotem suum commissam, quoniam 1uit contra quattuor  reges!!: Et Simeon et Leui raptum Dine sororis, raptoribus interfectis!?,
+        </p>
+        <p>
+Ratio autem predictorum est quoniam tota cognatio facit vnum  corpus, cuius partes vel membra faciunt singuli de cognatione illa; vt  in L. cum scimus, Codex, De agricolis et censitis, Lib. 11^. vnum  quippe cum parentibus sumus: De penitentia, dist. 4, c. quid est quod  dicitur!^. Nam pater et filius pro vno capite et pro vna persona reputantur, vt in L. fin. Codex, De impuberum et subtitutionibus, vbi  dicitur: «cum ex natura pater et filius hec eadem esse persona pene  intelligantur, sunt vna caro»P: vide 35, q. 3, $ hac autoritate!6.
+        </p>
+        <p>
+Item  filius pars est patris, vt dicit Philosophus in 5? Ethicorum: «sanguis  nempe eius est»!”: Digest., De inofficioso testamento, L. non est!*. Et  vox patris est tanquam vox filii: Instit. De inutilibus stipulationibus, $  ei qui^. Et heres vna persona cum defuncto censetur: in Authent., De  iure iurando a moriente prestito, 1n principio, scilicet, pro ea parte qua  est heres??. Et nota. Digest, De pretoriis stipulationibus, L. 2, in Glossa vltima?!. Immo, natura patris ambulat in persona filii et memoria  parentum 1n liberis, et per liberos conservatur in euum: Digest., De  verborum significatione, L. mulier??, $ cum proportionaretur; et appellatione parentis non tantum pater sed et auus et proauus et deinceps omnes superiores in infinitum continentur, sed et mater et aula et  proauia: Digest., De verborum significatione, L. appellatione?, et Di7. gest, De in ius vocando, L. 4, $ pretor et $ parentes?*.
+        </p>
+        <p>
+Similiter liberorum appellatione nepotes et pronepotes et omnes qui ex eodem  genere descendunt et orti sunt, comprehenduntur et faciunt cognationem, vt in L. liberorum, Digest., De verborum significatione?: faciunt quoque familiam, domum et gentem, id est, consanguinitatem,  vt probatur in L. pronuntiato, $ familie, El. 2, et $ communi iure,  Digest., eodem titulo?6.
+        </p>
+        <p>
+          Cum igitur, tota vna cognatio, familia, domus et gens, id est consanguinitas, faciat vnum corpus misticum vel imaginatum, «singuli  autem alter alterius membra», sicut ait Apostolus Ad Romanos 12 [5]  et naturali inclinatione in «idipsum pro inuicem sollicita sunt membra. Et si quid patitur vnum membrum, compatiuntur omnia membra; si vero gloriatur vnum membrum, congaudent omnia membra»,  vt etiam inquit Apostolus, 1* Ad Corinthios 12%”:
+        </p>
+        <p>
+          Ergo si pater vel  superior aut aliquis ascendentium alicuius familie, domus aut gentis  seu cognationis et consanguineorum, aut filius vel nepos aut pronepos  seu aliquis descendentium vel etiam transuersalium, agit vel patitur  aliquam iniuriam vel opprobrium seu dedecus siue turpe iniuriosum  aut inhonestum; similiter propter alicuius eorum illustria facta vel  gloriam et honorem adeptum propter merita, redundat in totam familiam vel cognationem, etc.
+        </p>
+        <p>
+Ergo non solum mortuis bonum quodlibet honoris vel felicis  opinionis apud posteros, quod est quodam modo perpetuo viuere,  verum etiam interest viuentium qui defunctis vel sanguine, familia  cognatione, affinitate aut etiam amicitia fuerunt coniuncti. Quia de  eiusmodi honore vel honoratione, gloria vel dedecore mortuorum,  recipiunt et ipsi commodum vel incommodum.
+        </p>
+        <p>
+Et sic patet 2^ Propositio.
         </p>
       </div>
     </body>
