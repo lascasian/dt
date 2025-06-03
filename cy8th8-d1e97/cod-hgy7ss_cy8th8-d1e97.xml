@@ -276,7 +276,14 @@
         <lb ed="#P"/>sibi pretiosior est quam diuitie.
         </p>
         <p>
-Unde patet quod inuenire res in  mari vel in littore maris est signum quod dominus earum non habuit  eas pro derelictis. Res, inquam, que non solent esse in maris littore  nisi rarissime et a casu, preter eas, dico, scilicet, lapillos vel gemmas  que ibi nascuntur que in nullius bonis sunt et proinde inuentoris  fiunt. Hec probantur: Instit. De rerum diuisione, $ vltimus??, et Digest., De furtis, L. falsus, $ si iactum??, et Digest., De damno infecto,  L. si finita, $ si quis metu.
+          Unde patet quod inuenire res in
+          <lb ed="#P"/>mari vel in littore maris est signum quod dominus earum non
+          <lb ed="#P"/>habuit eas pro derelictis. Res (inquam) que non solent esse in
+          <lb ed="#P"/>maris littore nisi rarissime et a <del rend="strikethrough">causa</del> casu preter<!--ms. pp--> eas dico scilicet
+          <lb ed="#P"/>lapillos vel gemas que ibi nascuntur que in nullius bonis sunt et
+          <lb ed="#P"/>proinde inuentoris fuit<!--Losada1992: fiunt-->. Hec probantur <ref>institu de re. diui.
+          <lb ed="#P"/>§ vlti.</ref> et <ref> .ff.<!--Digest--> de fur. l. <del rend="strikethrough">si fianta. §</del> falsus. § si Iactum</ref>. et <ref>.ff.<!--Digest-->
+        <lb ed="#P"/>de dam infe. l. si finita. § si quis metu</ref>.
         </p>
         <p>
 Hoc modo dicendum est quod, si quis portabat magna onera in  via et non poterat || vltra ferre reliquit, vel si fugiens hostes non potuit res suas portare ac propterea in vla dimittit, licet putet quod non  inueniet illas quando redierit vel quod forte nunquam eas habebit,  non dicetur habere eas pro derelictus.
